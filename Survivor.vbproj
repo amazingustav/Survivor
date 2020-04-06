@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A27D476D-EAD5-4057-B90B-72374A946896}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Survivor.My.MyApplication</StartupObject>
+    <RootNamespace>Survivor</RootNamespace>
+    <AssemblyName>Survivor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Text</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Survivor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Survivor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo+copy.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Classes\AutoCode.vb" />
+    <Compile Include="Classes\Básicas\Alterar.vb" />
+    <Compile Include="Classes\Básicas\Cadastrar.vb" />
+    <Compile Include="Classes\Básicas\Conexão.vb" />
+    <Compile Include="Classes\Básicas\Excluir.vb" />
+    <Compile Include="Classes\Básicas\Visualizar.vb" />
+    <Compile Include="Classes\ControleEstoque.vb" />
+    <Compile Include="Classes\FormataGrid.vb" />
+    <Compile Include="Classes\Foto.vb" />
+    <Compile Include="Classes\Logar.vb" />
+    <Compile Include="Classes\Module1.vb" />
+    <Compile Include="Classes\Preencher.vb" />
+    <Compile Include="Formulários\Demais\AddAutor.Designer.vb">
+      <DependentUpon>AddAutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\AddAutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Livro.designer.vb">
+      <DependentUpon>Livro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Livro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Pgto.Designer.vb">
+      <DependentUpon>Pgto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Pgto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Sobre.Designer.vb">
+      <DependentUpon>Sobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Sobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\Abertura.designer.vb">
+      <DependentUpon>Abertura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\Abertura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\FundoHelp.Designer.vb">
+      <DependentUpon>FundoHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\FundoHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\HelpEsto.Designer.vb">
+      <DependentUpon>HelpEsto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\HelpEsto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\LoginErrado.Designer.vb">
+      <DependentUpon>LoginErrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\LoginErrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Cliente.Designer.vb">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Estoque.Designer.vb">
+      <DependentUpon>Estoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Estoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\PesquisarLivros.Designer.vb">
+      <DependentUpon>PesquisarLivros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\PesquisarLivros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\NotaFiscal.Designer.vb">
+      <DependentUpon>NotaFiscal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\NotaFiscal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Operador.Designer.vb">
+      <DependentUpon>Operador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Operador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Fornecedor.Designer.vb">
+      <DependentUpon>Fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Funcionario.Designer.vb">
+      <DependentUpon>Funcionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Funcionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\FundoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Iniciais\FundoForm.Designer.vb">
+      <DependentUpon>FundoForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Demais\Sinopse.designer.vb">
+      <DependentUpon>Sinopse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Demais\Sinopse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\ClienteHelp.Designer.vb">
+      <DependentUpon>ClienteHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\ClienteHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\BuscaRapidaHelp.Designer.vb">
+      <DependentUpon>BuscaRapidaHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\BuscaRapidaHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\FornHelp.Designer.vb">
+      <DependentUpon>FornHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\FornHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\FuncHelp.Designer.vb">
+      <DependentUpon>FuncHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\FuncHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\LivroHelp.Designer.vb">
+      <DependentUpon>LivroHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\LivroHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\NotaHelp.Designer.vb">
+      <DependentUpon>NotaHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\NotaHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\OperadorHelp.Designer.vb">
+      <DependentUpon>OperadorHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\OperadorHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\PagtoHelp.Designer.vb">
+      <DependentUpon>PagtoHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\PagtoHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Help\SinopseHelp.Designer.vb">
+      <DependentUpon>SinopseHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Help\SinopseHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formulários\Demais\AddAutor.resx">
+      <DependentUpon>AddAutor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Livro.resx">
+      <DependentUpon>Livro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Pgto.resx">
+      <DependentUpon>Pgto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Sobre.resx">
+      <DependentUpon>Sobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Iniciais\Abertura.resx">
+      <DependentUpon>Abertura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\FundoHelp.resx">
+      <DependentUpon>FundoHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\HelpEsto.resx">
+      <DependentUpon>HelpEsto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Iniciais\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Iniciais\LoginErrado.resx">
+      <DependentUpon>LoginErrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Cliente.resx">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Estoque.resx">
+      <DependentUpon>Estoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\PesquisarLivros.resx">
+      <DependentUpon>PesquisarLivros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\NotaFiscal.resx">
+      <DependentUpon>NotaFiscal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Fornecedor.resx">
+      <DependentUpon>Fornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Funcionario.resx">
+      <DependentUpon>Funcionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Operador.resx">
+      <DependentUpon>Operador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Iniciais\FundoForm.resx">
+      <DependentUpon>FundoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Demais\Sinopse.resx">
+      <DependentUpon>Sinopse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\ClienteHelp.resx">
+      <DependentUpon>ClienteHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\BuscaRapidaHelp.resx">
+      <DependentUpon>BuscaRapidaHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\FornHelp.resx">
+      <DependentUpon>FornHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\FuncHelp.resx">
+      <DependentUpon>FuncHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\LivroHelp.resx">
+      <DependentUpon>LivroHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\NotaHelp.resx">
+      <DependentUpon>NotaHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\OperadorHelp.resx">
+      <DependentUpon>OperadorHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\PagtoHelp.resx">
+      <DependentUpon>PagtoHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Help\SinopseHelp.resx">
+      <DependentUpon>SinopseHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BackGround\Fundo ADM.png" />
+    <Content Include="BackGround\Fundo Caixa.png" />
+    <Content Include="BackGround\Fundo Vend..png" />
+    <Content Include="logo+copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

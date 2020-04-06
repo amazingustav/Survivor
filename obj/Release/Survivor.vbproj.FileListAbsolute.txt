@@ -1,0 +1,63 @@
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\BackGround\Fundo ADM.png
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\BackGround\Fundo Caixa.png
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\BackGround\Fundo Vend..png
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\Survivor.exe.config
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\Survivor.exe
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\Survivor.pdb
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\bin\Release\Survivor.xml
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\ResolveAssemblyReference.cache
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Abertura.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Login.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.LoginErrado.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Cliente.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Estoque.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.PesquisarLivros.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.NotaFiscal.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Fornecedor.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Funcionario.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Livro.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Operador.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.FundoForm.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Sinopse.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.Resources.resources
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.vbproj.GenerateResource.Cache
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.exe
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.xml
+Z:\GUSTAVO_00518\TCC\SystemBookStore\System_Design\Survivor\obj\Release\Survivor.pdb
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\bin\Release\Survivor.exe.config
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.exe
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.xml
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.pdb
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\bin\Release\Survivor.exe
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\bin\Release\Survivor.pdb
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\bin\Release\Survivor.xml
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.AddAutor.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Livro.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Pgto.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Sobre.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Abertura.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.FundoHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.HelpEsto.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Login.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.LoginErrado.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Cliente.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.EstoqueHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.PesquisarLivros.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.NotaFiscal.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Fornecedor.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Funcionario.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Operador.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.FundoForm.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Sinopse.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.ClienteHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.BuscaRapidaHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.FornHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.FuncHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.LivroHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.NotaHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.OperadorHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.PagtoHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.SinopseHelp.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.Resources.resources
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.vbproj.GenerateResource.Cache
+C:\Users\Gustavo.MARK-42\Documents\Visual Studio 2012\Projects\Survivor\Sistema\Survivor\obj\Release\Survivor.vbprojResolveAssemblyReference.cache
